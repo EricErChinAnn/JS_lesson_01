@@ -18,10 +18,15 @@ fruit.push("dork");
 console.log(fruit);
 console.log(f2);
 
+// function multi(z){
+//     z=z*2;
+//     console.log(z)
+//     return z;
+// }
+//can be shorten to 
 function multi(z){
-    z=z*2;
-    console.log(z)
-    return z;
-}
-
-multi (20);
+    console.log(z*2)
+    return z*2;
+    }
+multi(20);
+multi(30);
